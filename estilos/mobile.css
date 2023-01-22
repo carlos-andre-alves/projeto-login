@@ -25,12 +25,16 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.671);
+    transition: width 0.3s, heght 0.3s;
+    transition-timing-function: ease;
 }
 div#foto{
     background: url('../imagens/fundo.jpg') center center /cover no-repeat fixed;
     height: 200px;
+    display: block;
 }
 div#formu{
+    display: block;
     padding: 10px;
 }
 
