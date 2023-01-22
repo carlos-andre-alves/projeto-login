@@ -18,7 +18,12 @@
         width: 70%;
     }
     div#formu > p{
-        font-size: 1em;
+        font-size: 0.8em;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+    div#form > h1{
+        margin-bottom: 0;
     }
 }
 @media screen and (min-width: 993px){

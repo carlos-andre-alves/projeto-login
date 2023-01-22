@@ -23,8 +23,8 @@ section{
     position: absolute;
     top: 50%;border-radius: 20px;
     left: 50%;
-    transform: translate(-50%, -50%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.671);
+    transform: translate(-50%, -50%);
     transition: width 0.3s, heght 0.3s;
     transition-timing-function: ease;
 }
@@ -53,6 +53,9 @@ form > div.campo{
     width: 100%;
     margin: 5px 0;
     border-radius: 8px;
+}
+div.campo > input:focus-within{
+    background-color: white;
 }
 div.campo > i{
     font-size: 2em;
