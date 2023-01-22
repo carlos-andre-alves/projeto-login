@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/mobile.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
@@ -18,18 +19,19 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e pode fazer as configurações de ambiente.</p>
                 <form action="login.php" method="post">
-                    <p><label for="iemail">Email:</label>
-                        <input type="email" name="email" id="iemail">
-                    </p>
-                    <p>
-                        <label for="isenha">Senha:</label>
-                        <input type="password" name="senha" id="isenha">
-                    </p>
-                    <p>
+                    <div id="campo" autocapitalize="on">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="iemail" placeholder="Seu email" autocomplete="email" required maxlength="50"> 
+                        <label for="iemail">Email</label>
+                    </div>
+                    <div id="campo">
+                        <i class="material-icons">vpn_key</i>
+                         <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="30">
+                         <label for="isenha">Senha</label>
+                    </div>
                         <input type="submit" value="Entra">
-                    </p>
+                        <a href="esquecisenha.html">Esqueci senha <i class="material-icons">mail</i></a>
                 </form>
-                <a href="esquecisenha.html">Esqueci senha</a>
             </div>
         </section>
     </main>
