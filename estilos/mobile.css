@@ -71,6 +71,7 @@ div.campo > input{
     border-radius: 8px;
     padding: 6px;
     transform: translate(0, -11px);
+    outline: none;
 }
 form label{
     display: none;
@@ -84,6 +85,7 @@ form > input[type=submit] {
     border: none;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 form > input[type=submit]:hover{
     background-color: #34629e;
