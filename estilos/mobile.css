@@ -21,8 +21,9 @@ section{
     height: 550px;
     overflow: hidden;
     position: absolute;
-    top: 50%;border-radius: 20px;
+    top: 50%;
     left: 50%;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.671);
     transform: translate(-50%, -50%);
     transition: width 0.3s, heght 0.3s;
